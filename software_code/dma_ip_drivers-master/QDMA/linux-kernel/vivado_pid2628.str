@@ -1,0 +1,221 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:04:56 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 2628
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Jul 14 11:03:29 CST 2026
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Ubuntu
+OS Version: 5.4.0-216-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: localhost:10.0
+Screen size: 1707x1067
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	/edatools/Xilinx/Vivado/2023.1/tps/lnx64/jre17.0.3_7
+Java executable: 	/edatools/Xilinx/Vivado/2023.1/tps/lnx64/jre17.0.3_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	kyzhou
+User home directory: /home/kyzhou
+User working directory: /home/kyzhou/qdma_driver/dma_ip_drivers-master/QDMA/linux-kernel
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /edatools/Xilinx/Vivado
+HDI_APPROOT: /edatools/Xilinx/Vivado/2023.1
+RDI_DATADIR: /edatools/Xilinx/SharedData/2023.1/data:/edatools/Xilinx/Vivado/2023.1/data
+RDI_BINDIR: /edatools/Xilinx/Vivado/2023.1/bin
+
+Vivado preferences file: /home/kyzhou/.Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: /home/kyzhou/.Xilinx/Vivado/2023.1/
+Vivado layouts directory: /home/kyzhou/.Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	/edatools/Xilinx/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/kyzhou/qdma_driver/dma_ip_drivers-master/QDMA/linux-kernel/vivado.log
+Vivado journal file: 	/home/kyzhou/qdma_driver/dma_ip_drivers-master/QDMA/linux-kernel/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2628-zcos
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /edatools/Xilinx/Vivado/2023.1
+RDI_BASEROOT: /edatools/Xilinx/Vivado
+RDI_BINROOT: /edatools/Xilinx/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_DATADIR: /edatools/Xilinx/SharedData/2023.1/data:/edatools/Xilinx/Vivado/2023.1/data
+RDI_INSTALLROOT: /edatools/Xilinx
+RDI_INSTALLVER: 2023.1
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: /edatools/Xilinx/Vivado/2023.1/lib/lnx64.o/Ubuntu/20:/edatools/Xilinx/Vivado/2023.1/lib/lnx64.o/Ubuntu:/edatools/Xilinx/Vivado/2023.1/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /edatools/Xilinx/Vitis/2023.1/bin:/edatools/Xilinx/Vivado/2023.1/ids_lite/ISE/bin/lin64
+RDI_PROG: /edatools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/kyzhou/qdma_driver/dma_ip_drivers-master/QDMA/linux-kernel:zcos_1783998154_2559
+RDI_SHARED_DATA: /edatools/Xilinx/SharedData/2023.1/data
+RDI_TPS_ROOT: /edatools/Xilinx/Vivado/2023.1/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /edatools/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: /edatools/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: /edatools/Xilinx/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: /edatools/Xilinx/Vivado/2023.1
+XILINX_SDK: /edatools/Xilinx/Vitis/2023.1
+XILINX_VITIS: /edatools/Xilinx/Vitis/2023.1
+XILINX_VIVADO: /edatools/Xilinx/Vivado/2023.1
+XILINX_VIVADO_HLS: /edatools/Xilinx/Vivado/2023.1
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 2,242 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,296 MB. GUI used memory: 65 MB. Current time: 7/14/26, 11:03:30 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // u
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_hw_manager 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 118 MB (+121327kb) [00:01:18]
+// [Engine Memory]: 2,385 MB (+2349644kb) [00:01:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  1915 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/edatools/Xilinx/Vivado/2023.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,443 MB. GUI used memory: 69 MB. Current time: 7/14/26, 11:04:20 AM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 8491.988 ; gain = 156.285 ; free physical = 59121 ; free virtual = 69202 
+// 'K' command handler elapsed time: 6 seconds
+// [GUI Memory]: 148 MB (+24710kb) [00:01:20]
+dismissDialog("Open Hardware Manager"); // bq
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2023.1   **** Build date : May  7 2023 at 15:13:34     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2023.1.0   ****** Build date   : Apr 10 2023-23:59:24     **** Build number : 2023.1.1681142364       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 8513.301 ; gain = 16.047 ; free physical = 58980 ; free virtual = 69126 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00001ec6850a01 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: current_hw_device [get_hw_devices xczu19_SE_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu19_SE_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xczu19_SE (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: current_hw_device [get_hw_devices arm_dap_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0] 
+// Tcl Message: current_hw_device [get_hw_devices xczu19_SE_0] 
+// Elapsed time: 12 seconds
+dismissDialog("Auto Connect"); // bq
+// [Engine Memory]: 2,506 MB (+1082kb) [00:01:37]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,553 MB. GUI used memory: 70 MB. Current time: 7/14/26, 11:04:40 AM CST
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xczu19_SE_0 (1) ; Programmed", 2, "xczu19_SE_0 (1)", 0, true); // m - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xczu19_SE_0 (1) ; Programmed", 2, "xczu19_SE_0 (1)", 0, true, false, false, false, true, false); // m - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ao
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // r
+// Elapsed time: 13 seconds
+setFileChooser("/home/kyzhou/xsas/paper_dsa/719C_SE_QDMA_BRAM_0714_v2.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aP
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xczu19_SE_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xczu19_SE_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/kyzhou/xsas/paper_dsa/719C_SE_QDMA_BRAM_0714_v2.bit} [get_hw_devices xczu19_SE_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xczu19_SE_0] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,569 MB. GUI used memory: 72 MB. Current time: 7/14/26, 11:05:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,569 MB. GUI used memory: 71 MB. Current time: 7/14/26, 11:06:00 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,569 MB. GUI used memory: 71 MB. Current time: 7/14/26, 11:06:30 AM CST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:01:45 ; elapsed = 00:01:42 . Memory (MB): peak = 8583.430 ; gain = 0.000 ; free physical = 58827 ; free virtual = 68983 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xczu19_SE_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xczu19_SE (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed Time for: 'D.a': 01m:43s
+// 'D' command handler elapsed time: 120 seconds
+// Elapsed time: 103 seconds
+dismissDialog("Program Device"); // bq
+// Elapsed time: 164 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 466, 57); // cD
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 671, 78); // cD
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xczu19_SE_0 (1) ; Programmed", 2, "xczu19_SE_0 (1)", 0, true, false, false, false, true, false); // m - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ao
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Program Device"); // aP

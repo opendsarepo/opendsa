@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jul 14 14:10:30 2026
+# Process ID: 4486
+# Current directory: /home/kyzhou/qdma_driver/dma_ip_drivers-master/QDMA/linux-kernel/bin
+# Command line: vivado
+# Log file: /home/kyzhou/qdma_driver/dma_ip_drivers-master/QDMA/linux-kernel/bin/vivado.log
+# Journal file: /home/kyzhou/qdma_driver/dma_ip_drivers-master/QDMA/linux-kernel/bin/vivado.jou
+# Running On: zcos, OS: Linux, CPU Frequency: 800.445 MHz, CPU Physical cores: 16, Host memory: 66885 MB
+#-----------------------------------------------------------
+start_gui
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xczu19_SE_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu19_SE_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu19_SE_0]
+set_property PROBES.FILE {} [get_hw_devices xczu19_SE_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu19_SE_0]
+set_property PROGRAM.FILE {/home/kyzhou/xsas/paper_dsa/719C_SE_QDMA_BRAM_0714_OK.bit} [get_hw_devices xczu19_SE_0]
+program_hw_devices [get_hw_devices xczu19_SE_0]
+refresh_hw_device [lindex [get_hw_devices xczu19_SE_0] 0]
